@@ -1,40 +1,38 @@
 # 🧬 DNA Sequence Analyser
 
-A small Python program that performs basic analysis on a DNA sequence.
+A Python application for analysing DNA sequences stored in FASTA files.
 
-The program uses the following DNA sequence:
+## Features
 
-```python
-dna = "ATGGCCATTTAAGTAGCC"
-```
+- Read DNA sequences from FASTA files
+- Analyse multiple genes
+- DNA validation
+- Sequence length calculation
+- Base counting (A, T, G, C)
+- Base percentages
+- GC content calculation
+- ATG start codon detection
+- DNA complement
+- Reverse complement
+- RNA transcription
+- Protein translation
+- Summary statistics
+- Export results to results.txt
 
-## What it does
+## Example Output
 
-* Calculates the length of the DNA sequence
-* Counts how many `A`, `T`, `G` and `C` bases it contains
-* Calculates the GC content percentage
-* Creates the complementary DNA strand
-* Translates DNA codons into amino acids until it finds a stop codon
+text
+========== Gene1 ==========
 
-## How it works
+Length             : 18
+A                  : 5 (27.78%)
+T                  : 5 (27.78%)
+G                  : 4 (22.22%)
+C                  : 4 (22.22%)
+GC Content         : 44.44%
+ATG Position       : 0
+Protein            : MAI
 
-The program uses dictionaries for:
+## Author
 
-* Complementary bases:
-
-  * `A → T`
-  * `T → A`
-  * `G → C`
-  * `C → G`
-
-* Basic codon translation:
-
-  * `ATG → M`
-  * `GCC → A`
-  * `ATT → I`
-  * `GTA → V`
-  * `TAA`, `TAG`, `TGA → STOP`
-
-## Output
-
-The program prints the results of the analysis, including the DNA length, base counts, GC content, complementary sequence, and translated protein.
+Dora Sidiropoulou
