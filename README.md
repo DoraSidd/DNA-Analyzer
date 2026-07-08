@@ -1,11 +1,11 @@
-# 🧬 DNA Sequence Analyser
+# 🧬 DNA Sequence Analyzer
 
-A Python application for analysing DNA sequences stored in FASTA files.
+A Python application for analyzing DNA sequences stored in FASTA files.
 
 ## Features
 
 - Read DNA sequences from FASTA files
-- Analyse multiple genes
+- Analyze multiple genes
 - DNA validation
 - Sequence length calculation
 - Base counting (A, T, G, C)
